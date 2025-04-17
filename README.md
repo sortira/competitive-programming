@@ -1,37 +1,79 @@
-# Archival for all Competitive Programming and DSA programs
+# 🧠 Competitive Programming & DSA Archival
 
-This repository corresponds to all the programs written by me for various contests, algorithmic tasks on platforms like LeetCode,
-Codeforces, Atcoder, Codechef, Hackerrank etc. These programs have minimal to zero documentation but I will try to add the editorial
-later for the programs in text files.
+Welcome to my personal archive of all Competitive Programming (CP) and Data Structures & Algorithms (DSA) programs. This repository includes code I've written for contests and problems from platforms like:
 
-Some predefined conventions (which I will obviously violate like Drake did to the kids) : 
+- LeetCode
+- Codeforces
+- AtCoder
+- CodeChef
+- HackerRank
+- TUF Sheets (and more as needed)
 
-	- Each platform will have its own designated folder (namely `leetcode`, `codeforces`, `codechef`, `atcoder`, `hackerrank`, `tuf` and more 
-	to be added as and when required)
-	- Inside each folder the `misc` folder should contain the solutions to the problems which I'm solving outside of a contest for practice, 
-	and all such programs will be inside the `misc` folder. For example if problem 6969A of `codeforces` was solved outside of its parent contest, 
-	then it shall be `codeforces/misc/6969A.cpp`. For the `tuf` folder, programs shall be organised as per their sheets/topics.
-	- Problems are not necessarily solved using one language, althought the order of preference for solving is C++ > Java > Python. The 
-	templates for C++ and Java are to be found as `template.cpp` and `Solution.java` at the root directory (same as this README.md).
-	- Compiler flags and compilation commands shall optionally be included. 
-	- For contests, every contest has an ID/mnemonic name (Weekly Contest 69 or Div 4 contest 420) and the directories corresponding to the 
-	contests shall be named accordingly as well. For example if I participate in Weekly Contest 69 of Leetcode then the programs corresponding
-	to that contest shall be found at `leetcode/weekly69`. Executable files, pyc files, .class files are not committed to VCS for obvious reasons.
-	- Regarding upsolving, the corresponding contest directories shall contain a directory named `upsolve` inside them which shall contain the 
-	programs written after upsolving the same. 
-	- If you have any problems/clarifications regarding these, feel free to mail [here](mailto:aritroshomework@gmail.com) but note that competitive
-	programming isn't my #1 priority hence replies/clarifications can be slow.
+> ⚠️ Most of these programs contain minimal to zero documentation. I do plan to add editorials in separate text files later, time permitting.
 
+---
 
- Programming Environment:
- 	- Windows 11 Home Edition
- 	- GCC/G++ from [this website](https://winlibs.com) because it's very easy to setup (download the zip corresponding to your system,
- 	extract it and place it on the PATH environment variable)
- 	- Java from OpenJDK releases, NOT Oracle. Don't want legal issues.
- 	- Python (either managed by anaconda or from the official website)
- 	- Editor: [Micro](https://micro-editor.github.io/), ocassionally VsCode/VSCodium + Integrated Terminal
- 	- Terminal: Windows Terminal 
- 	- Browser: Firefox + uBlock Origin or Opera
- 	- Device: HP 240 G8 Laptop (Intel i3 13th Generation, 8GB DDR5 RAM, Intel UHD Graphics, 512GB SSD) or HP Omen 16 (AMD Ryzen 7 7000 Series, 
- 	32GB 5600MHz Crucial DDR5 RAM, NVIDIA GeForce RTX 4060 with 8GB GDDR6 VRAM, AMD Radeon Integrated Graphics, NPU Compute Accelerator, 1TB SSD)
- 	
+## 📁 Folder Structure & Conventions
+
+Some loosely followed (and oftenly violated like Drake with kids) organizational rules:
+
+- **Each platform** has its own folder:
+  ```
+  leetcode/
+  codeforces/
+  codechef/
+  atcoder/
+  hackerrank/
+  tuf/
+  ```
+
+- **`misc/` folders** inside each platform contain practice problems not tied to any contest.  
+  Example: `codeforces/misc/6969A.cpp` (solved independently).
+
+- **`tuf/` folder** is organized by sheets or topics, in alignment with the popular DSA sheets.
+
+- **Language preference**:  
+  `C++ > Java > Python` (but sometimes I just use what I feel like).  
+  Language templates:
+  - `template.cpp`
+  - `Solution.java`  
+  *(found in the root directory)*
+
+- **Contests**:  
+  Each contest has its own directory named by its ID/mnemonic.  
+  Example:  
+  - LeetCode Weekly Contest 69 → `leetcode/weekly69/`
+  - Codeforces Div 4 Round 420 → `codeforces/div4_420/`
+
+- **Upsolving**:  
+  Each contest folder can contain an `upsolve/` subfolder for problems solved *after* the contest.
+
+- **Compiled artifacts** (`.exe`, `.class`, `.pyc`) are *not* tracked in version control.
+
+---
+
+## 📬 Clarifications
+
+If you have any questions, feel free to [email me](mailto:aritroshomework@gmail.com).  
+However, please note that competitive programming isn't my top priority—so replies may be slow.
+
+---
+
+## 💻 Programming Environment
+
+| Category        | Setup                                                                 |
+|----------------|-----------------------------------------------------------------------|
+| OS             | Windows 11 Home Edition                                               |
+| C++ Compiler   | GCC/G++ via [winlibs](https://winlibs.com)                            |
+| Java           | OpenJDK (⚠️ Not Oracle, for licensing reasons)                         |
+| Python         | Either Anaconda-managed or official release                           |
+| Editor         | [Micro](https://micro-editor.github.io/), occasionally VSCode/VSCodium |
+| Terminal       | Windows Terminal                                                      |
+| Browser        | Firefox + uBlock Origin or Opera                                      |
+| Devices        | - HP 240 G8 (i3 13th Gen, 8GB DDR5, 512GB SSD)                         |
+|                | - HP Omen 16 (Ryzen 7 7000, 32GB DDR5, RTX 4060, 1TB SSD, NPU, etc.)   |
+
+---
+
+Happy Hacking! 🚀  
+— *sortira*
